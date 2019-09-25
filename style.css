@@ -1,0 +1,150 @@
+body.theme-flowdark #chat .comment-group-hover {
+  background: #292929 !important;
+}
+
+body.theme-flowdark .chat-message {
+  border-top: 1px solid #292929 !important;
+  border-bottom: 1px solid #292929 !important;
+}
+
+body.theme-flowdark #tab-bar,
+.tab-name {
+  background: #2a2a2a !important;
+}
+
+body.theme-flowdark a.mention, body.theme-flowdark a.tag, body.theme-flowdark .last-read-message-text, body.theme-flowdark .new-tab-flow-label, body.theme-flowdark .new-tab-people-label, body.theme-flowdark span.tag {
+  border: none !important;
+}
+
+body.theme-flowdark a.mention:hover, body.theme-flowdark a.tag:hover, body.theme-flowdark .last-read-message-text:hover, body.theme-flowdark .new-tab-flow-label:hover, body.theme-flowdark .new-tab-people-label:hover {
+  background: #444 !important;
+}
+
+
+body.theme-flowdark code, body.theme-flowdark pre, body.theme-flowdark .chat-header, body.theme-flowdark .chat-header-small, body.theme-flowdark .inbox-footer-small, body.theme-flowdark .inbox-footer, body.theme-flowdark .chat-message, body.theme-flowdark .chat-message.date-separator::before, body.theme-flowdark .chat-message-list, body.theme-flowdark .coach-tooltip, body.theme-flowdark .coach-tooltip-footer, body.theme-flowdark .dropdown-actions, body.theme-flowdark #emoji-picker, body.theme-flowdark #slash-commands, body.theme-flowdark .error-message, body.theme-flowdark .inbox-message, body.theme-flowdark .error-message, body.theme-flowdark .single-message, body.theme-flowdark .info-message, body.theme-flowdark .new-tab-header, body.theme-flowdark .single-message, body.theme-flowdark .tabby-menu, body.theme-flowdark .thread-activity-message, body.theme-flowdark .thread-discussion-message, body.theme-flowdark .thread-properties tr, body.theme-flowdark .thread-title, body.theme-flowdark #user-list {
+  background: #222 !important;
+}
+
+body.theme-flowdark .emoji-groups, body.theme-flowdark .floating-header, body.theme-flowdark .static-header {
+  background: #222 !important;
+}
+
+.nav-header, #single .message-form, #thread .message-form, .right-panel {
+  border-color: #333 !important;
+}
+
+body.theme-flowdark .autocomplete-info a, body.theme-flowdark .chat-message a {
+  color: rgb(85, 193, 255) !important;
+}
+body.theme-flowdark .chat-message a.mention {
+  color: #a9dc76 !important;
+}
+.chat-message-list.emphasize-me .me .message-author {  
+  color: #ffd866 !important;
+}
+body.theme-flowdark .chat-message a.highlight {
+  background: #ffd866 !important;
+  color: black !important;
+}
+.current .tab-name {
+  background: #3a3f40 !important;
+}
+
+body.theme-flowdark .message-author {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.chat-message-list .thread-comment-avatar {
+  margin-top: 10px !important;
+}
+
+body.theme-flowdark h3.new-tab-title, body.theme-flowdark h4.user-list-title, body.theme-flowdark .msg-body h1.user-list-title, .msg-body body.theme-flowdark h1.user-list-title, body.theme-flowdark #new-tab, body.theme-flowdark #status-input, body.theme-flowdark #thread, body.theme-flowdark .ac, body.theme-flowdark .autocomplete-info, body.theme-flowdark .autocomplete-option, body.theme-flowdark .autocompleter, body.theme-flowdark .autocompleter.has-more, body.theme-flowdark .chat-header-small, body.theme-flowdark .inbox-footer-small, body.theme-flowdark .dropdown-actions>li>a, body.theme-flowdark .dropdown-menu, body.theme-flowdark .dropdown-menu>.dropdown-wrapper>li>a, body.theme-flowdark .dropdown-menu>li>a, body.theme-flowdark .flow, body.theme-flowdark .formatted, body.theme-flowdark .inbox-comment-message, body.theme-flowdark .inbox-file-comment-message, body.theme-flowdark .thread-comment-message, body.theme-flowdark .thread-file-message, body.theme-flowdark .inbox-footer, body.theme-flowdark .inbox-message-list, body.theme-flowdark .loader, body.theme-flowdark .new-tab-item .name, body.theme-flowdark .notification, body.theme-flowdark .prettify-pln, body.theme-flowdark .prettify-pun, body.theme-flowdark .single-view-content-wrap, body.theme-flowdark .thread-content-wrap {
+  background: #222 !important;
+}
+
+.truncate-toggle {
+  border-top-color: #2a2a2a !important;
+}
+
+body.theme-flowdark input[type="text"], body.theme-flowdark input[type="email"], body.theme-flowdark input[type="password"], body.theme-flowdark input[type="url"], body.theme-flowdark select, body.theme-flowdark textarea, body.theme-flowdark .text-input, body.theme-flowdark .tokenist, body.theme-flowdark input[type="email"], body.theme-flowdark input[type="password"], body.theme-flowdark input[type="url"], body.theme-flowdark select, body.theme-flowdark textarea, body.theme-flowdark .message-building-button, body.theme-flowdark .chat-message .expanding-input textarea, body.theme-flowdark .ac.selected, body.theme-flowdark .message-form fieldset, body.theme-flowdark .text-input, body.theme-flowdark .truncate-toggle:hover {
+  background: transparent !important;
+}
+
+.message-form fieldset {
+  border-color: transparent !important;
+}
+
+.message-form.focused .left, .message-form.focused textarea {
+  box-shadow: none !important;
+}
+
+.tab-list-shadow.bottom {
+  display: none !important;
+}
+
+body.theme-flowdark .nav-footer {
+  background: #2a2a2a !important;
+}
+
+#chat-form {
+  border-top: 1px solid #333 !important;
+}
+
+/* Reduce flow tab heights */
+.tab-link {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.tab-menu-link,
+.tab-error-link {
+  margin-top: 0.5rem !important;
+}
+
+/* Override default flow colors with P2 branding colors */
+.flow-tab:nth-child(5n+1) .tab-avatar {
+  background: #ff6188 !important;
+}
+.flow-tab:nth-child(5n+2) .tab-avatar {
+  background: #a9dc76 !important;
+}
+.flow-tab:nth-child(5n+3) .tab-avatar {
+  background: #ab9df2 !important;
+}
+.flow-tab:nth-child(5n+4) .tab-avatar {
+  background: #fc9867 !important;
+}
+.flow-tab:nth-child(5n) .tab-avatar {
+  background: #78dce8 !important;
+}
+
+.open-sidebar, .close-sidebar, .create-flow, .search-tab {
+  padding: 1.47rem 0 !important;
+}
+
+.nav-footer-actions {
+  border-color: #444 !important;
+}
+
+.tab-list-shadow.top, .nav-footer-tooltip {
+  display: none !important;
+}
+
+.message-history-highlight {
+  animation: none !important;
+  -webkit-animation: none !important;
+}
+
+#single .typing-users:only-child, 
+#thread .typing-users:only-child,
+#chat .typing-users:only-child {
+  margin-left: 10px !important;
+  background: #222 !important;
+  color: #aaa !important;
+}
+
+body.theme-flowdark .expanding-input textarea::placeholder {
+  white-space:nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow:hidden !important;
+}
